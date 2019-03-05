@@ -1,0 +1,46 @@
+html{
+   width: 100%;
+}
+body{
+   background: url("https://media2.giphy.com/media/O0QCryNMAqiVW/giphy.gif");
+   background-repeat: none;
+   background: cover;
+   border-color: dotted blue 5px;
+}
+h1{
+   background-color:black;
+   color: white;
+   text-shadow: blue 3px 3px;
+   font-family: 'Press Start 2P', cursive;
+   padding: 20px;
+   text-align: center;
+}
+#main{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   margin:auto;
+}
+#Main{
+   margin-top: 100px;
+   text-align: center;
+}
+.art{
+   margin: auto;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+}
+img{
+   height: 250px;
+   width: 250px;
+   float:left;
+   background: linear-gradient(to bottom right, #33ccff 0%, #ff3399 100%);
+   padding: 5px;
+   margin: 10px;
+}
+img:hover{
+    transform: scale(1.2);  
+}
