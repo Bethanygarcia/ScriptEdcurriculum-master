@@ -1,8 +1,10 @@
 html{
+   
+    background: url("https://i.pinimg.com/originals/02/48/48/024848206647c337dea8f666ab1a1550.gif");
+    background-repeat: no-repeat;
     width: 100%;
+    background-size: 100%;
 }
 body{
-    background: linear-gradient(to top left, #00ffff 0%, #ff66ff 100%);
-    background-size: cover;
-    
+    text-align: center;
 }
